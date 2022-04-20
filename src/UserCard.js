@@ -5,8 +5,8 @@ const UserCard = (props) => {
     return(
         <div className="ui card">
             <div className="content">
-                <div className="header">
-                    Alex Tancredi
+                <div className="header" style={{textAlign: 'center'}}>
+                    User Card
                 </div>
                 <div className="description">
                     {props.children}

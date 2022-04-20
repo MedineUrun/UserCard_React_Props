@@ -10,9 +10,7 @@ const App = () => {
 
     return (
         <div className="ui comments">
-            <UserCard>
-                hgsadghdsahgdshgj
-            </UserCard>
+            
             <UserCard>
             <SingleComment
              name='Alex' 
@@ -37,6 +35,17 @@ const App = () => {
             image={profile3}
             />
             </UserCard>
+
+            <UserCard>
+            <SingleComment 
+            name='Ldfdgfdl' 
+            date='Today at 85:00 PM' 
+            text='Thanksssss'
+            image={profile3}
+            />
+            </UserCard>
+
+            
         </div>
     )
 
